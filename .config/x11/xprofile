@@ -3,6 +3,9 @@
 # This file runs when a DM logs you into a graphical session.
 # If you use startx/xinit like a Chad, this file will also be sourced.
 
+# Handle touchpad multitouch gestures
+libinput-gestures-setup restart &
+
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 #export GDK_SCALE=2
 #export GDK_DPI_SCALE=0.5
