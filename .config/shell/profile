@@ -157,6 +157,3 @@ Please run:
 	\033[32myay -S libxft-bgra-git\033[0m
 and replace \`libxft\`. Afterwards, you may start the graphical server by running \`startx\`."
 fi
-
-# Switch escape and caps if tty and no passwd required:
-sudo -n loadkeys ${XDG_DATA_HOME:-$HOME/.local/share}/larbs/ttymaps.kmap 2>/dev/null
