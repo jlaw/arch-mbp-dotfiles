@@ -25,3 +25,8 @@
     foreground = "#919191"
     frame_color = "#262626"
     timeout = 10
+
+[ignore]
+    # This notification will not be displayed
+    appname = "Brave"
+    skip_display = true
