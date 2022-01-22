@@ -29,7 +29,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 	unset f
 fi
 
-autostart="mpd xcompmgr dunst unclutter pipewire"
+autostart="mpd xcompmgr dunst unclutter"
 
 for program in $autostart; do
 	pidof -s "$program" || setsid -f "$program"
