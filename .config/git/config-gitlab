@@ -1,0 +1,5 @@
+[user]
+	email = 3241915-jaxnlaw@users.noreply.gitlab.com
+	signingkey = 0xB28B4FD18F4F93D0
+[commit]
+	gpgsign = true
